@@ -65,6 +65,15 @@ img {
     left: 0;
     right: 0;
 }
+footer {
+    background: #432;
+    text-align: center;
+    padding: 26px 0;
+}
+footer p {
+    color: #fff;
+    font-size: 0.875rem;
+}
 
 /* HOME
 ---------------------------------------------------------------- */
@@ -93,4 +102,64 @@ img {
 }
 #home .button:hover {
     background: #0090aa;
+}
+
+/* CONTACT
+---------------------------------------------------------------- */
+#contact {
+    background-image: url(../images/contact-bg.jpg);
+    min-height: 100vh;
+}
+form div {
+    margin-bottom: 14px;
+}
+label {
+    font-size: 1.125em;
+    margin-bottom: 10px;
+    display: block;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    background-image: rgba(255, 255, 255, .5);
+    border: 1px #432 solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 100%;
+}
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    max-width: 240px;
+}
+textarea {
+    height: 6em;
+}
+#location {
+    padding: 4% 0;
+}
+#sns {
+    background: #FAF7F0;
+    padding: 4% 0;
+}
+#location .wrapper,
+#sns .wrapper {
+    flex-direction: column;
+}
+iframe {
+    width: 100%;
+}
+.location-info,
+.location-map,
+.sns-box {
+    width: 100%;
+}
+.location-info p {
+    padding: 12px 10px;
+}
+.sns-box {
+    margin-left: 10px;
+    margin-bottom: 30px;
 }
